@@ -1,11 +1,9 @@
-package temperature
+package unit
 
 import (
 	"math"
 	"testing"
 )
-
-const float64EqualityThreshold = 1e-16
 
 func almostEqualC(a, b Celcius) bool {
 	return math.Abs(float64(a-b)) <= float64EqualityThreshold

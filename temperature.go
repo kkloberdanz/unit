@@ -1,4 +1,4 @@
-package temperature
+package unit
 
 type Kelvin float64
 type Celcius float64
