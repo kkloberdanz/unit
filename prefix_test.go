@@ -9,7 +9,7 @@ func TestScale(t *testing.T) {
 		input    float64
 		expected float64
 	}{
-		{Yobibyte, 1208925819614629174706176},
+		{Yobi, 1208925819614629174706176},
 	}
 
 	for _, test := range tests {

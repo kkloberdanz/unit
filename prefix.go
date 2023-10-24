@@ -2,14 +2,14 @@ package unit
 
 const (
 	// Binary
-	Kibibyte = 1024
-	Mebibyte = Kibibyte * Kibibyte
-	Gibibyte = Mebibyte * Kibibyte
-	Tebibyte = Gibibyte * Kibibyte
-	Pebibyte = Tebibyte * Kibibyte
-	Exbibyte = Pebibyte * Kibibyte
-	Zebibyte = Exbibyte * Kibibyte
-	Yobibyte = Zebibyte * Kibibyte
+	Kibi = 1024
+	Mebi = Kibi * Kibi
+	Gibi = Mebi * Kibi
+	Tebi = Gibi * Kibi
+	Pebi = Tebi * Kibi
+	Exbi = Pebi * Kibi
+	Zebi = Exbi * Kibi
+	Yobi = Zebi * Kibi
 
 	// SI
 	Quecto = 1e-30
