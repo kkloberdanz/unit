@@ -10,8 +10,8 @@ func TestMeterToMile(t *testing.T) {
 		expected Mile
 	}{
 		{1000, 0.6213712},
-		{Meter(Kilo), 0.6213712},
-		{Meter(Mega), 621.37119999999993069650},
+		{Kilo * Meter(1), 0.6213712},
+		{Mega * Meter(12), 7456.45439999999962310540},
 	}
 
 	for _, test := range tests {
